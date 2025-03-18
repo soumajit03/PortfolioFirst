@@ -1,26 +1,37 @@
 @import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Ovo&display=swap'); */
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  font-family: Outfit;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Light mode styles */
+.bg-
+
+\[url\(\/footer-bg-color\.png\)\]
+
+ {
+  background-image: url('/footer-bg-color.png');
+}
+.bg-
+
+\[length\:90\%_auto\]
+
+ {
+  background-size: 90% auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Dark mode styles */
+:root.dark * {
+  color: #e5e5e5; /* Light text in dark mode */
 }
+:root.dark body {
+  background-color: #1a1a1a; /* Dark background color */
+}
+:root.dark .bg-
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+\[url\(\/footer-bg-color\.png\)\]
+
+ {
+  background-image: url('/footer-bg-dark-color.png'); /* Optional dark background image */
 }
