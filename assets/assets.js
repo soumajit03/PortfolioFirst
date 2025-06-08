@@ -78,6 +78,24 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'CarePulse: Patient Management site',
+        description: 'Web Project',
+        bgImage: '/work-2.png',
+        link: 'https://care-pulse-blond.vercel.app/', // Replace with actual URL
+    },
+    {
+        title: 'CoachSense: AI Career Coach',
+        description: 'Web Project',
+        bgImage: '/work-2.png',
+        link: 'https://coachsense.vercel.app/', // Replace with actual URL
+    },
+    {
+        title: 'Jobify: A Job Portal Website',
+        description: 'Web Project',
+        bgImage: '/work-2.png',
+        link: 'https://github.com/soumajit03/Job-Portal-Website-2024.git', // Replace with actual URL
+    },
+    {
         title: 'Transcribe/Translator Project',
         description: 'Web Project',
         bgImage: '/work-1.png',
@@ -94,12 +112,6 @@ export const workData = [
         description: 'Web Project',
         bgImage: '/work-3.png',
         link: 'https://riseupbysoumajit.netlify.app/', // Replace with actual URL
-    },
-    {
-        title: 'Patient Management site',
-        description: 'Web Project',
-        bgImage: '/work-2.png',
-        link: 'https://care-pulse-blond.vercel.app/', // Replace with actual URL
     },
     {
         title: 'Simple Web TodoList',
@@ -129,10 +141,10 @@ export const workData = [
 
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'AI/ML', description: '"AI/ML development involves creating intelligent algorithms and models that enable systems to learn, adapt, and make data-driven decisions.', link: '' },
-    { icon: assets.ui_icon, title: 'Data Structures and Algorithm', description: 'Data Structures and Algorithms focus on organizing and optimizing data for efficient problem-solving and computational performance.', link: '' },
-    { icon: assets.graphics_icon, title: 'System design', description: 'Creative system design solutions to enhance functionality and scalability...', link: '' },
+    {title: 'Web design', description: 'Web development is the process of creating and maintaining websites or web applications using programming, design, and content management.', link: '' },
+    {title: 'AI/ML', description: 'AI/ML development involves creating intelligent algorithms and models that enable systems to learn, adapt, and make data-driven decisions.', link: '' },
+    {title: 'Data Structures and Algorithm', description: 'Data Structures and Algorithms focus on organizing and optimizing data for efficient problem-solving and computational performance.', link: '' },
+    {title: 'System design', description: 'Creative system design solutions to enhance functionality and scalability...', link: '' },
 ]
 
 export const infoList = [
